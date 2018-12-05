@@ -49,6 +49,40 @@ var friendsArray = [
             "1",
             "3"
         ]
+    },
+    {
+        "name": "A Girl Has No Name",
+        "photo": "https://vignette.wikia.nocookie.net/gameofthrones/images/a/ab/Arya-Stark.jpg/revision/latest?cb=20160918165450&path-prefix=tr",
+        "scores": [
+            "5",
+            "5",
+            "1",
+            "5",
+            "1",
+            "1",
+            "1",
+            "3",
+            "1",
+            "5",
+            "1"
+        ]
+    },
+    {
+        "name": "Cersei Lannister",
+        "photo": "https://geekandsundry.com/wp-content/uploads/2016/02/Cersei-Lannister-game-of-thrones-33804391-1024-576.jpg",
+        "scores": [
+            "1",
+            "5",
+            "1",
+            "1",
+            "4",
+            "5",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+        ]
     }
 ]
 

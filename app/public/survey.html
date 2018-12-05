@@ -9,142 +9,162 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
 </head>
 
 <body>
-    Hello!
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control" id="friendName" placeholder="First Name Last Name">
+    <div class="row">
+        <div class="col-12">
+            <h1>Hello!</h1>
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Link to Profile Picture</label>
-            <input type="text" class="form-control" id="friendLink" placeholder="Link">
-        </div>
-        <div class="form-group">
-            <label for="q1">How do you feel about Harry Potter?</label>
-            <select class="form-control" id="q1">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q2">Do you enjoy a good murder mystery (Sherlock, Agatha Christie, etc)?</label>
-            <select class="form-control" id="q2">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q3">How much do you like to play video games?</label>
-            <select class="form-control" id="q3">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q4">How much do you like role-playing games? </label>
-            <select class="form-control" id="q4">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q5">How do you feel about Science Fiction?</label>
-            <select class="form-control" id="q5">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q6">How many seasons of Game of Thrones have you seen?</label>
-            <select class="form-control" id="q6">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q7">Do you enjoy reading books in your spare time?</label>
-            <select class="form-control" id="q7">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q8">How do you feel about anime?</label>
-            <select class="form-control" id="q8">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q9">Do you like watching documentaries or reading historical
-                biographies?</label>
-            <select class="form-control" id="q9">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q10">Do you even Pokemon Go?</label>
-            <select class="form-control" id="q10">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="q11">Do you enjoy playing board games?</label>
-            <select class="form-control" id="q11">
-                <option value = 1>1 (hate it)</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5 (love it)</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
-    </form>
+    </div>
+    <div class="row">
+        <div class="col-12">
 
+
+            <div class="row"></div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="friendName" placeholder="First Name Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Link to Profile Picture</label>
+                    <input type="text" class="form-control" id="friendLink" placeholder="Link">
+                </div>
+                <div id = "border-needed"></div>
+                <br>
+                <div class="form-group">
+                    <label for="q1">How do you feel about Harry Potter?</label>
+                    <select class="form-control" id="q1">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q2">Do you enjoy a good murder mystery (Sherlock, Agatha Christie, etc)?</label>
+                    <select class="form-control" id="q2">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q3">How much do you like to play video games?</label>
+                    <select class="form-control" id="q3">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q4">How much do you like role-playing games? </label>
+                    <select class="form-control" id="q4">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q5">How do you feel about Science Fiction?</label>
+                    <select class="form-control" id="q5">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q6">How many seasons of Game of Thrones have you seen?</label>
+                    <select class="form-control" id="q6">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q7">Do you enjoy reading books in your spare time?</label>
+                    <select class="form-control" id="q7">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q8">How do you feel about anime?</label>
+                    <select class="form-control" id="q8">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q9">Do you like watching documentaries or reading historical
+                        biographies?</label>
+                    <select class="form-control" id="q9">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q10">Do you even Pokemon Go?</label>
+                    <select class="form-control" id="q10">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q11">Do you enjoy playing board games?</label>
+                    <select class="form-control" id="q11">
+                        <option value=1>1 (hate it)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (love it)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <a href = "/api/friends">API Friends List</a> | 
+    <a href = "https://github.com/laene/Friend-Finder">Git Hub Repo</a>
+    <style>
+        body {
+            width: 80%;
+            margin: auto;
+        }
+        #border-needed {
+            border-bottom: 3px solid grey;
+        }
+    </style>
     <script type="text/javascript">
         $("#submit-btn").on("click", function (event) {
             event.preventDefault();
-            console.log($("#q1").val());
 
             var newFriend = {
                 name: $("#friendName").val().trim(),
@@ -164,13 +184,13 @@
                 ]
             };
 
-            // Question: What does this code do??
             $.post("/api/friends", newFriend)
                 .then(function (data) {
                     alert(data);
                 });
         });
     </script>
+
 </body>
 
 </html>
