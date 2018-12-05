@@ -3,7 +3,7 @@ var app = express();
 var path = require("path");
 
 // Define a port to listen for incoming requests
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
